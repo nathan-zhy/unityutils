@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseMono", "BaseMono\BaseMono.csproj", "{CDA7E19C-94D2-444C-A669-B69D3E3D7521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBaseMono", "TestBaseMono\TestBaseMono.csproj", "{AB137B7F-5D1E-4A07-892A-830C46A88F8E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDA7E19C-94D2-444C-A669-B69D3E3D7521} = {CDA7E19C-94D2-444C-A669-B69D3E3D7521}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA7E19C-94D2-444C-A669-B69D3E3D7521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA7E19C-94D2-444C-A669-B69D3E3D7521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA7E19C-94D2-444C-A669-B69D3E3D7521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA7E19C-94D2-444C-A669-B69D3E3D7521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB137B7F-5D1E-4A07-892A-830C46A88F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB137B7F-5D1E-4A07-892A-830C46A88F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB137B7F-5D1E-4A07-892A-830C46A88F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB137B7F-5D1E-4A07-892A-830C46A88F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C145318-FF76-424E-8733-5B38654A29E8}
+	EndGlobalSection
+EndGlobal

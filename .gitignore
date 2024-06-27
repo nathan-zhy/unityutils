@@ -1,0 +1,8 @@
+.vs/
+BaseMono/obj/
+BaseMono/bin/Debug/
+BaseMono/bin/Release/
+TestBaseMono/obj/
+BaseMono/BaseMono.csproj.user
+TestBaseMono/bin/
+BaseMono/bin/Dotfuscated/*.xml
